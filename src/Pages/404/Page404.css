@@ -1,0 +1,17 @@
+.contenedor404 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.error404 {
+  color: white;
+  font-size: 40px;
+}
+
+.mensaje404 {
+  color: white;
+  font-size: 20px;
+}
