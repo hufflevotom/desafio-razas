@@ -1,0 +1,25 @@
+.raza {
+  font-size: 25px;
+  color: green;
+}
+
+.subRaza {
+  font-size: 25px;
+  color: lawngreen;
+  padding-bottom: 5px;
+}
+
+.contenedorTitulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.contenedorRazas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

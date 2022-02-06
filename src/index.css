@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0;
+  padding: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -10,14 +11,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  scrollbar-width: none;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-y: hidden !important;
 }
 
 #root {
   height: 100%;
   width: 100%;
+  overflow: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.titulo {
+  margin-bottom: 50px;
+  font-size: 25px;
+  color: white;
+}
+
+.contenedorGlobal {
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
 }
